@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+    height: 100px;
+}
+
+.header-logo{
+    max-width: 200px;
+}
+
+.right-side-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-up-button{
+    border: none;
+    background-color: white;
+
+    font-size: 18px;
+}
+
+.log-in-button{
+    border: none;
+    border-radius: 10px;
+
+    background-color: #3366FF;
+    color: white;
+
+    font-size: 18px;
+    padding: 15px 50px 15px 50px;
+}
